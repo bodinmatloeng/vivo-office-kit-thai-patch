@@ -3,6 +3,7 @@
 *.asar.*
 *.app/
 *.exe
+!platforms/windows/patch-thai.exe
 *.msi
 *.dmg
 *.zip
