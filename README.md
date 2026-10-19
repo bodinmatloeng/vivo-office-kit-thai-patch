@@ -1,6 +1,9 @@
 # vivo Office Kit Thai Patch
 
-<img align="right" width="140" alt="สนับสนุนค่ากาแฟ" src="coffee-qr.png">
+<p align="right">
+<img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"><br>
+<sub>สนับสนุนค่ากาแฟ</sub>
+</p>
 
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
