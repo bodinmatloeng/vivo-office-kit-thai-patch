@@ -1,0 +1,30 @@
+{
+  "dry_run_no_mutation": true,
+  "install_and_backup": true,
+  "idempotence_no_writes": true,
+  "revert_and_repeat": true,
+  "reproducibility": true,
+  "asar_members": 28686,
+  "unknown_base_refused": true,
+  "unknown_target_revert_refused": true,
+  "corrupt_backup_refused": true,
+  "symlink_refused": true,
+  "source_sha256": "d8408cd1cfbbd5ffdb078b0e9ff38e00ea685541f2268d044825130fd6266585",
+  "patched_sha256": "d62220402c7e4d4f21fba3ffb0eaa72a380c0e7710851f7afdacfda687d6a76e",
+  "counts": {
+    "occurrences": 2933,
+    "unique_pairs": 1262,
+    "files": 41
+  },
+  "runtime": "NOT TESTED: standalone stock-based output was not installed over the working V5 application",
+  "javascript_syntax_files": 39,
+  "json_syntax_files": 2,
+  "ast_code_structure_unchanged_files": 41,
+  "localization_keys_preserved": true,
+  "placeholders_preserved": true,
+  "main_js_unchanged": true,
+  "unit_tests_passed": 5,
+  "shell_syntax_passed": true,
+  "installed_working_app_modified": false,
+  "asar_packed_members": 23332
+}
