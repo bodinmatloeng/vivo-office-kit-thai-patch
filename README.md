@@ -10,6 +10,10 @@
 
 ดาวน์โหลดแพตช์ภาษาไทย Windows (ฟรี): [vivo-office-kit-thai-windows.zip](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/windows-7.0.6/vivo-office-kit-thai-windows.zip)
 
+ดาวน์โหลดแพตช์ภาษาไทย Mac (Apple Silicon, ไม่ต้องลง Python): [Vivo-Thai-macOS-0.2.0-preview.pkg](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/macos-0.2.0-preview/Vivo-Thai-macOS-0.2.0-preview.pkg) · [คู่มือ Mac และการย้อนกลับ](platforms/macos/native/README.md)
+
+Mac PKG เป็นรุ่นทดลอง ยังไม่มี Developer ID/notarization หาก macOS ปฏิเสธให้หยุดและรายงาน ไม่ปิดระบบป้องกัน
+
 **สถานะ: มีสคริปต์ Windows และตัวติดตั้ง macOS รุ่นทดลองแล้ว ส่วน Mac ผ่านทดสอบเปิดแอป ฟอร์ม เชื่อมต่อ สะท้อนหน้าจอ ส่งไฟล์ และย้อนกลับบนเครื่องทดสอบแล้ว ยังเป็นรุ่นทดลอง**
 
 เป้าหมายคือเริ่มจากแอปจีนเดิม เขียนระบบแพตช์ใหม่ และใช้คำแปลไทยที่จัดทำเอง ไม่คัดลอกโครงหรือตัวติดตั้งจากแพตช์ภาษาอังกฤษ ผู้ใช้ต้องดาวน์โหลดแอป vivo เอง
