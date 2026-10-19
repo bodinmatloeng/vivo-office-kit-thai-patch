@@ -4,7 +4,7 @@
 </tr>
 </table>
 
-<p style="font-size: 40px">Vivo Office Kit Thai Patch</p>
+<img src="title.svg" alt="Vivo Office Kit Thai Patch" width="490" height="48">
 
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
