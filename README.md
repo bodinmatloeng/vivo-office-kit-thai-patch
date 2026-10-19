@@ -1,8 +1,5 @@
-<table align="right">
-<tr>
-<td align="right">สนับสนุนค่ากาแฟ<br><img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"></td>
-</tr>
-</table>
+<p align="right">สนับสนุนค่ากาแฟ</p>
+<img align="right" width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png">
 
 # Vivo Office Kit ไทยแพด
 
