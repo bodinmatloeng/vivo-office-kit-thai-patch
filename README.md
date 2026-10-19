@@ -1,9 +1,10 @@
-<table width="100%">
+<table align="right">
 <tr>
-<td align="left" valign="middle"><h1>Vivo Office Kit ไทยแพด</h1></td>
-<td align="right" valign="middle">สนับสนุนค่ากาแฟ<br><img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"></td>
+<td align="right">สนับสนุนค่ากาแฟ<br><img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"></td>
 </tr>
 </table>
+
+# Vivo Office Kit ไทยแพด
 
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
