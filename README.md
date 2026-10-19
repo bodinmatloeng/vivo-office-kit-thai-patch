@@ -2,6 +2,8 @@
 
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
+ดาวน์โหลดแพตช์ภาษาไทย Windows (ฟรี): [vivo-office-kit-thai-windows.zip](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/windows-7.0.6/vivo-office-kit-thai-windows.zip)
+
 **สถานะ: มีสคริปต์แพตช์ Windows สำหรับรุ่นจีน 7.0.6 แล้ว ส่วน macOS ยังไม่มีตัวติดตั้ง**
 
 เป้าหมายคือเริ่มจากแอปจีนเดิม เขียนระบบแพตช์ใหม่ และใช้คำแปลไทยที่จัดทำเอง ไม่คัดลอกโครงหรือตัวติดตั้งจากแพตช์ภาษาอังกฤษ ผู้ใช้ต้องดาวน์โหลดแอป vivo เอง
