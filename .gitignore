@@ -1,0 +1,16 @@
+.DS_Store
+*.asar
+*.asar.*
+*.app/
+*.exe
+*.msi
+*.dmg
+*.zip
+*backup*/
+work/
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+__pycache__/
