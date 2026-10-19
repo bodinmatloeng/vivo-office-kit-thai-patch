@@ -4,7 +4,7 @@
 </tr>
 </table>
 
-<p><b>Vivo Office Kit ไทยแพด</b></p>
+<p><b>Vivo Office Kit Thai Patch</b></p>
 
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
