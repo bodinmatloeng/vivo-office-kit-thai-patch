@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "name": "Thai standalone macOS preview 0.1.0",
-  "version": "0.1.0-preview",
+  "name": "Thai standalone macOS preview 0.1.1",
+  "version": "0.1.1-preview",
   "supported_app_version": "7.0.6",
   "source_sha256": "d8408cd1cfbbd5ffdb078b0e9ff38e00ea685541f2268d044825130fd6266585",
   "files": {
