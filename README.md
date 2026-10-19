@@ -10,7 +10,7 @@
 
 ดาวน์โหลดแพตช์ภาษาไทย Windows (ฟรี): [vivo-office-kit-thai-windows.zip](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/windows-7.0.6/vivo-office-kit-thai-windows.zip)
 
-ดาวน์โหลดแพตช์ภาษาไทย Mac (Apple Silicon, ไม่ต้องลง Python): [Vivo-Thai-macOS-0.2.0-preview.pkg](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/macos-0.2.0-preview/Vivo-Thai-macOS-0.2.0-preview.pkg) · [คู่มือ Mac และการย้อนกลับ](platforms/macos/native/README.md)
+ดาวน์โหลดแพตช์ภาษาไทย Mac (Apple Silicon, ไม่ต้องลง Python): [Vivo-Thai-macOS-0.2.0-preview.pkg](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/macos-0.2.0-preview/Vivo-Thai-macOS-0.2.0-preview.pkg)
 
 **Mac: รองรับเฉพาะชิป Apple Silicon (M1 เป็นต้นไป) — ยังไม่รองรับ Mac ชิป Intel**
 
@@ -24,7 +24,7 @@ Mac PKG เป็นรุ่นทดลอง ยังไม่มี Develop
 
 | ระบบ | สถานะ |
 | --- | --- |
-| macOS | เป้าหมาย Office Kit China 7.0.6 บน Apple Silicon เท่านั้น (**ยังไม่รองรับ Mac ชิป Intel**); [ตัวติดตั้งรุ่นทดลอง](platforms/macos/README.md) ผ่านการติดตั้ง เปิดใช้งาน และย้อนกลับบน Mac เครื่องทดสอบแล้ว |
+| macOS | เป้าหมาย Office Kit China 7.0.6 บน Apple Silicon เท่านั้น (**ยังไม่รองรับ Mac ชิป Intel**); [คู่มือ Mac และการย้อนกลับ](platforms/macos/native/README.md) ผ่านการติดตั้ง เปิดใช้งาน และย้อนกลับบน Mac เครื่องทดสอบแล้ว |
 | Windows | สคริปต์สำหรับ Office Kit จีน 7.0.6 บน Windows 64 บิต อยู่ใน [platforms/windows](platforms/windows/README.md) |
 
 ผลใช้งานของแพตช์ Mac เดิมไม่ใช่ผลรับรองตัวติดตั้งใหม่ และยังมีข้อความบางส่วนที่ไม่ได้แปล
