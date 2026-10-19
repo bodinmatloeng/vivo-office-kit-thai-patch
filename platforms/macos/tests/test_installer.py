@@ -3,6 +3,8 @@ import importlib.util
 import json
 from pathlib import Path
 import struct
+import plistlib
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -82,6 +84,18 @@ class Transactions(unittest.TestCase):
         link.symlink_to(self.archive)
         with self.assertRaises(i.PatchError):
             i.safe_path(link)
+
+    def test_background_toast_does_not_block_but_main_app_does(self):
+        app = self.root / 'pcsuite.app'
+        (app / 'Contents').mkdir(parents=True)
+        (app / 'Contents/Info.plist').write_bytes(plistlib.dumps({'CFBundleExecutable': 'pcsuite'}))
+        toast = str(app / 'Contents/MacOS/mac_toast')
+        main = str(app / 'Contents/MacOS/pcsuite')
+        with patch.object(i.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0, toast+'\n', '')):
+            i.ensure_stopped(app)
+        with patch.object(i.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0, main+'\n'+toast+'\n', '')):
+            with self.assertRaises(i.PatchError):
+                i.ensure_stopped(app)
 
 
 if __name__ == '__main__':

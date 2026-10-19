@@ -156,9 +156,14 @@ def safe_path(path):
 def ensure_stopped(app):
     if app is None:
         return
-    result = subprocess.run(['/bin/ps', '-axo', 'command='], capture_output=True, text=True, check=True)
-    executable_path = str(app) + '/Contents/MacOS/'
-    if any(line.strip().startswith(executable_path) for line in result.stdout.splitlines()):
+    with (app / 'Contents/Info.plist').open('rb') as f:
+        executable = plistlib.load(f)['CFBundleExecutable']
+    executable_path = str(app / 'Contents/MacOS' / executable)
+    try:
+        result = subprocess.run(['/bin/ps', '-axo', 'comm='], capture_output=True, text=True, check=True)
+    except (OSError, subprocess.CalledProcessError) as e:
+        raise PatchError('ตรวจสถานะโปรเซสไม่ได้ ยังไม่ติดตั้งหรือย้อนกลับ') from e
+    if any(line.strip() == executable_path for line in result.stdout.splitlines()):
         raise PatchError('โปรดปิด vivo Office Kit ตามปกติก่อนติดตั้งหรือย้อนกลับ')
 
 

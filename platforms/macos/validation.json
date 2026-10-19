@@ -16,15 +16,33 @@
     "unique_pairs": 1262,
     "files": 41
   },
-  "runtime": "NOT TESTED: standalone stock-based output was not installed over the working V5 application",
+  "runtime": {
+    "baseline": "Fresh official China 7.0.6, matching exact source checksum, opened before patch",
+    "launch": "PASS on installed /Applications app after patch",
+    "todo_create_edit": "PASS; generated test item; no date or reminder",
+    "event_create_edit": "PASS; generated test event; no reminders",
+    "restart_persistence": "PASS; both edited records visible after revert and relaunch",
+    "wifi_connection": "PASS; vivo X200 Ultra connected in UI",
+    "file_manager": "PASS; device view opened; no private file contents inspected",
+    "mirroring": "PASS; actual live phone home screen rendered; screenshot not saved or published",
+    "transfer": "PASS at UI level; new 89-byte UTF-8 test file appears in sent-to-phone history; no round-trip checksum verification",
+    "live_revert": "PASS; original checksum restored; Chinese UI opened; test records retained",
+    "reinstall_after_revert": "PASS; patched archive installed again",
+    "live_idempotence": "PASS; no archive write and no additional backup",
+    "cross_device_calendar_sync": "NOT separately verified",
+    "backup_restore_phone_data": "NOT tested",
+    "remaining": "Chinese date/day and timezone text, category names, some toast/detail messages, native menus and file picker labels remain",
+    "security_changes": "No resign, Gatekeeper/SIP changes or quarantine removal performed",
+    "earlier_copy_test": "Earlier copied test app was moved to Trash after macOS warning, per user report; root cause not proven; fresh official installation plus patch opened successfully on this Mac"
+  },
   "javascript_syntax_files": 39,
   "json_syntax_files": 2,
   "ast_code_structure_unchanged_files": 41,
   "localization_keys_preserved": true,
   "placeholders_preserved": true,
   "main_js_unchanged": true,
-  "unit_tests_passed": 5,
+  "unit_tests_passed": 6,
   "shell_syntax_passed": true,
-  "installed_working_app_modified": false,
-  "asar_packed_members": 23332
+  "asar_packed_members": 23332,
+  "process_detection": "Main executable only; persistent mac_toast is ignored"
 }
