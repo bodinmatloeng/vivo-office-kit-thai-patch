@@ -1,10 +1,10 @@
 # vivo Office Kit Thai Patch
 
+<img align="right" width="140" alt="สนับสนุนค่ากาแฟ" src="coffee-qr.png">
+
 โครงโปรเจกต์แพตช์ภาษาไทยอย่างไม่เป็นทางการ สำหรับ Windows และ macOS
 
 ดาวน์โหลดแพตช์ภาษาไทย Windows (ฟรี): [vivo-office-kit-thai-windows.zip](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/windows-7.0.6/vivo-office-kit-thai-windows.zip)
-
-## สนับสนุนค่ากาแฟ
 
 **สถานะ: มีสคริปต์ Windows และตัวติดตั้ง macOS รุ่นทดลองแล้ว ส่วน Mac ผ่าน static และติดตั้ง/ย้อนกลับบนสำเนา ยังรอทดสอบ GUI/ฟังก์ชันจริงก่อนออกชุดใช้งานทั่วไป**
 
