@@ -1,7 +1,8 @@
 <table width="100%">
 <tr>
 <td align="left" valign="middle"><h1>Vivo Office Kit ไทยแพด</h1></td>
-<td align="right" valign="middle">สนับสนุนค่ากาแฟ <img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"></td>
+<td align="right" valign="middle" nowrap>สนับสนุนค่ากาแฟ</td>
+<td align="right" valign="middle"><img width="140" alt="พร้อมเพย์ สนับสนุนค่ากาแฟ" src="coffee-qr.png"></td>
 </tr>
 </table>
 
