@@ -4,6 +4,10 @@
 
 ดาวน์โหลดแพตช์ภาษาไทย Windows (ฟรี): [vivo-office-kit-thai-windows.zip](https://github.com/bodinmatloeng/vivo-office-kit-thai-patch/releases/download/windows-7.0.6/vivo-office-kit-thai-windows.zip)
 
+## สนับสนุนค่ากาแฟ
+
+![พร้อมเพย์ สนับสนุนค่ากาแฟ](coffee-qr.png)
+
 **สถานะ: มีสคริปต์ Windows และตัวติดตั้ง macOS รุ่นทดลองแล้ว ส่วน Mac ผ่าน static และติดตั้ง/ย้อนกลับบนสำเนา ยังรอทดสอบ GUI/ฟังก์ชันจริงก่อนออกชุดใช้งานทั่วไป**
 
 เป้าหมายคือเริ่มจากแอปจีนเดิม เขียนระบบแพตช์ใหม่ และใช้คำแปลไทยที่จัดทำเอง ไม่คัดลอกโครงหรือตัวติดตั้งจากแพตช์ภาษาอังกฤษ ผู้ใช้ต้องดาวน์โหลดแอป vivo เอง
